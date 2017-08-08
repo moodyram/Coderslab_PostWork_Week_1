@@ -1,0 +1,1 @@
+# Zasady tworzenia oprogramowania i wzorce projektowe

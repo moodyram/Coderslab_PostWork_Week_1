@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="urf-8">
+        <title>Wzorzec fabryki</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+       <section>
+           <div class="add-item">
+               <form>
+
+                   <label for="name">Nazwa:</label>
+                   <input id="name" type="text">
+                   
+                   <label for="item">Typ:</label>
+                   <select id="item">
+                        <option value="vegetable">Warzywo</option>
+                        <option value="fruit">Owoc</option>
+                        <option value="meat">Mięso</option>
+                        <option value="fish">Ryba</option>
+                   </select>
+
+                   <label for="country">Kraj pochodzenia:</label>
+                   <input id="country" type="text">
+
+                   <input type="submit" value="Dodaj">
+
+               </form>
+           </div>
+           <div class="item-list">
+
+           </div>
+       </section>
+
+
+
+        <script src="js/app.js"></script>
+    </body>
+</html>

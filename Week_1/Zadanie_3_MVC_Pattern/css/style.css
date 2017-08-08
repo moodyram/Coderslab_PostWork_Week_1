@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#slider {
+    width: 800px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+h3 {
+    line-height: 60px;
+    font-size: 40px;
+}
+
+h4 {
+    line-height: 40px;
+    font-size: 28px;
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+.slider-image {
+    width: 800px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+#prev {
+    float: left;
+}
+
+#next {
+    float: right;
+}
